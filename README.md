@@ -58,8 +58,8 @@ import Icon from "mock-design-system/dist/Icon"
 In order to use this component library in another React project and simultaneously develop on it, 
 you will need to do the following:
 
-Make sure both your-react-app and mock-design-system are using the same version. npm link
-puts the global symlink the global node_modules folder of the specific node version so they need
+Make sure both your-react-app and mock-design-system are using the node same version. npm link
+puts the global symlink in the global node_modules folder of the specific node version so they need
 to be the same to work.
 
 Step 1: Add the following option to the webpack.config.js of your-react-app.
