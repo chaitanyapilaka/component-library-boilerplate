@@ -64,8 +64,8 @@ to be the same to work.
 
 Step 1: Add the following option to the webpack.config.js of your-react-app.
 Because both the library and your react app use react as a dependency, sometimes there might be an
-issue resolving which version of react to use. This options fixes the issue. This may sometimes also be
-caused because or styled-components. The fix is to do the same and alias styled-components
+issue resolving which version of react to use. This option fixes the issue. This may sometimes also be
+caused by styled-components. The fix is to do the same and alias styled-components.
 
 ```js
 {
